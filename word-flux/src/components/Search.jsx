@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../css/search.css"
+import "./Media"
 
 const Search = () => {
     
@@ -12,7 +13,6 @@ const Search = () => {
                 <input type='text' id="textbox_id" placeholder='Type in a YouTube link' onChange={(e) => setTextInput(e.target.value)}></input>
                 <button onClick={createIFrame}>Go</button>
             </div>
-            
         </>
     )
 
